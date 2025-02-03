@@ -1,11 +1,13 @@
-<h1>🦆 O Jogo do Pato</h1>
-<p>O Jogo do Pato é um pequeno projeto que desenvolvi seguindo um tutorial, com o objetivo de aprender o básico do desenvolvimento de jogos na Godot. O jogo conta com apenas um nível, apresentando obstáculos simples e um objetivo direto: pular os espinhos e alcançar a namorada do pato! 🏆</p>
+<h1>🦆 Scenes</h1>
+<p>Aqui você pode observar todas as cenas do Jogo do Pato</p>
 
-<h1>🎮 Sobre o Tutorial</h1>
-<p>Este projeto foi baseado no tutorial do canal Pingüim Bipolar, que explica de forma clara e acessível os conceitos básicos da Godot Engine. Se você também quer aprender, pode acompanhar o tutorial completo pelo link:</p>
+<h1>O que é uma Cena?</h1>
+<p>Se você está começando agora pode ter dificuldade em saber um o que é uma cena. Por isso, vou explicar de forma simples</p>
 
-<a href="https://www.youtube.com/watch?v=RO_DD1U1KWg&list=WL&index=27&t=377s&pp=gAQBiAQB">📌 Assista ao tutorial aqui</a>
+<p>Em Godot, uma cena é como um bloco de construção do jogo. Ela pode representar qualquer coisa: um personagem, um inimigo, um nível inteiro, um menu, etc.</p>
 
-<h1>💻 Código-Fonte</h1>
-<p>Se quiser explorar o código ou até mesmo modificá-lo para testar suas próprias ideias, fique à vontade! Todos podem utilizar e aprender com ele. 🚀</p>
+<p>Cada cena é composta por nós (nodes), que são os elementos básicos do jogo. Por exemplo, um personagem pode ser uma cena que contém um nó de sprite (imagem), um nó de colisão e um nó de script para controlar o comportamento.</p>
 
+<p>A grande vantagem do sistema de cenas da Godot é que você pode reutilizá-las e aninhá-las dentro de outras cenas. Por exemplo, se criar uma cena "Inimigo", pode adicioná-la quantas vezes quiser dentro da cena "Fase 1".</p>
+
+<p>Isso torna o desenvolvimento mais organizado e modular, facilitando a criação e manutenção do jogo. 🚀</p>
