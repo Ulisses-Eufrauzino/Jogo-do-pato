@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bkagggfk1s760"]
+
+[node name="Win" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 48.0
+offset_top = 304.0
+offset_right = 1100.0
+offset_bottom = 387.0
+theme_override_colors/font_color = Color(0, 0.85098, 0.243137, 1)
+theme_override_font_sizes/font_size = 60
+text = "VOCÊ VENCEU! ENCONTROU A PATA!"
